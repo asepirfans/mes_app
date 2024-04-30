@@ -79,7 +79,9 @@ class FirstMachinePage extends StatelessWidget {
                           TextStyle(fontSize: 14, fontWeight: FontWeight.bold),
                     ),
                     IconButton(
-                      onPressed: () {},
+                      onPressed: () {
+                        Get.offAllNamed(RouteName.inputParam);
+                      },
                       icon: Icon(
                         Icons.arrow_right,
                       ),
